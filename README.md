@@ -25,7 +25,9 @@ https://react-hook-form.com/get-started
 https://www.npmjs.com/package/json-server
 
 obs: If you install jsonserver globally you can run:
+
 json-server --watch db.json --port 3000       
 
 If you install locally you should run: 
+
 npx json-server --watch db.json   
