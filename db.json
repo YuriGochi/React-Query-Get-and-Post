@@ -1,0 +1,46 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Ashlei",
+      "lastName": "Bancs",
+      "country": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Peter",
+      "lastName": "Parker",
+      "country": "USA"
+    },
+    {
+      "id": 3,
+      "name": "Jhon",
+      "lastName": "croc",
+      "country": "Australia"
+    },
+    {
+      "id": 4,
+      "name": "lex",
+      "lastName": "Luthor",
+      "country": "Canada"
+    },
+    {
+      "id": 5,
+      "name": "Kanye",
+      "lastName": "West",
+      "country": "Canada"
+    },
+    {
+      "id": 6,
+      "name": "Joe",
+      "lastName": "Rogan",
+      "country": "USA"
+    },
+    {
+      "id": 7,
+      "name": "Post",
+      "lastName": "Malone",
+      "country": "Australia"
+    }
+  ]
+}
