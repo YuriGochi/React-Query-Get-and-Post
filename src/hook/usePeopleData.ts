@@ -15,15 +15,15 @@ export const fetchPeople = async() => {
 }
 
 //Fetch people without Axios
-export const fetchPeople = async() => {
-    try {
-        const response = await fetch(`${BASE_URL}/people`)
-        const json = await response.json()
-        return json;
-    } catch (error) {
-        console.log(error)
-    }
-}
+// export const fetchPeople = async() => {
+//     try {
+//         const response = await fetch(`${BASE_URL}/people`)
+//         const json = await response.json()
+//         return json;
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
 
 //Get People with React-Query
 export const usePeopleData = () => {
@@ -36,17 +36,17 @@ export const addPerson = async (person:Person) => {
 }
 
 //Post person without Axios
-export const addPerson = async (person:Person) => {
-    const Options = {
-        method:'POST',
-        headers: {'Content-type':"application/json"},
-        body:JSON.stringify(person)
-    }
-    const response = await fetch(`${BASE_URL}/people`, Options)
-    const json = await response.json()
+// export const addPerson = async (person:Person) => {
+//     const Options = {
+//         method:'POST',
+//         headers: {'Content-type':"application/json"},
+//         body:JSON.stringify(person)
+//     }
+//     const response = await fetch(`${BASE_URL}/people`, Options)
+//     const json = await response.json()
 
-    return json;
-}
+//     return json;
+// }
 
 //Post person with React-Query
 export const useAddPerson = () => {

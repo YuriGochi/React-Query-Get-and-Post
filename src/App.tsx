@@ -19,6 +19,8 @@ function App() {
     const person = {
       ...data
     };
+    //Javascript function to reload the page and get the new row
+    window.location.reload();
     mutate(person)
   };
   
